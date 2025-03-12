@@ -1,3 +1,22 @@
+/*
+======================================================================================================================================
+Quality Checks (To be continued)
+======================================================================================================================================
+Script Purpose:
+	This script performs various quality checks for data consistency, accuracy,
+	and standardization accross the 'silver' schemas. It includes check for:
+	- Null or duplicate primary keys.
+	- Unwanted spaces in string fields.
+	- Data standardization and consistency
+	- Invalid date ranges and orders.
+	- Data consistency between related fields
+Usage Notes:
+	- Run these checks after data loading Silver Layer
+	- Investigate and resolve any discrepancies found during the checks.
+======================================================================================================================================
+*/
+
+
 -- CHECK DATA QUALITY FOR SILVER.ERP_CUST_AZ12
 
 -- Identify Out-of-range Dates
